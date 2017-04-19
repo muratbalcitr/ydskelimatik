@@ -1,27 +1,13 @@
 <resources>
     <string name="app_name">ydskelimatik</string>
-    <string name="facebook_app_id">1776843395964833</string>
-    <string name="fb_login_protocol_scheme">fb1776843395964833</string>
+    <string name="facebook_app_id">facebook_id</string>
+    <string name="fb_login_protocol_scheme">fb_login_protocol_scheme</string>
 
     <string name="kendini_dene">Kendini Dene</string>
     <string name="en_ok_ikanlar">EN ÇOK ÇIKANLAR</string>
     <string name="kel_me_ren">KELİME ÖĞREN</string>
-    <string name="Haydi_Durma" />
-    <string name="title_activity_navigationmenu">navigationmenu</string>
+    <string name="Haydi_Durma" /> 
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="action_settings">Settings</string>
-    <string name="nav_home">Profile</string>
-    <string name="nav_kelimeler">Learn</string>
-    <string name="nav_encokcikanlar">Most Asked</string>
-    <string name="nav_testebasla">Try Yourself</string>
-    <string name="nav_about_Us"> About Us</string>
-
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_sequence">Sequence</string>
-    <string name="title_profile">Profile</string>
+    <string name="title_activity_main">MainActivity</string> 
 
 </resources>
