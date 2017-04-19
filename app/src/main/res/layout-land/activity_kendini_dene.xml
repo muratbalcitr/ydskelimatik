@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/renk6"
+    android:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/btnSoru"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/pbarBasarimOrani"
+        android:layout_alignEnd="@+id/btnCevapA"
+        android:layout_alignLeft="@+id/btnCevapA"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnCevapA"
+        android:layout_alignStart="@+id/btnCevapA"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="denemmeme"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+    />
+
+
+    <Button
+        android:id="@+id/btnCevapA"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/btnCevapC"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/yuvarlak"
+        android:onClick="btncevap"
+        android:textColor="#000"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btnCevapB"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/btnCevapD"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/yuvarlak"
+        android:onClick="btncevap"
+        android:textColor="#000"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btnCevapC"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/yuvarlak"
+        android:onClick="btncevap"
+        android:textColor="#000"
+        android:textStyle="normal|bold" />
+
+
+    <Button
+        android:id="@+id/btnCevapD"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/yuvarlak"
+        android:onClick="btncevap"
+        android:textColor="#000"
+        android:textStyle="normal|bold" />
+
+
+</RelativeLayout>

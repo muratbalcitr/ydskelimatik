@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerbackground"
+    tools:context="com.murat.murat.ydskelimatik.loginProcess.register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/edittext"
+            android:elevation="0dp"
+            android:ems="14"
+            android:gravity="center"
+            android:hint="username"
+            android:inputType="textPersonName"
+            android:textAllCaps="false"
+            android:textColor="@color/textColor"
+            android:textColorHint="@android:color/white"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/etMail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/edittext"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="e-mail"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/textColor"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/edittext"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="@color/textColor"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/etPasswordRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/edittext"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="password repeat"
+            android:inputType="textPassword"
+            android:textColor="@color/textColor"
+            android:textColorHint="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/buttonregisterCancel"
+                android:onClick="cancel"
+                android:text="CANCEL" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/com_facebook_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/buttonregistersayfa"
+                android:onClick="register"
+                android:text="Register"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

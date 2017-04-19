@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="geri">#ec12bc03</color>
+
+    <color name="kelime">#f7ffee</color>
+
+    <color name="ileri">#017cda</color>
+    <color name="hata">#2271a8</color>
+    <color name="popuparkaplan">#7abbef</color>
+    <color name="girisrelativealt">#b908dac1</color>
+    <color name="kelimeogren">#c51674aa</color>
+    <color name="dedede">#e6216ecd</color>
+    <color name="kendinidene">#d5468d33</color>
+    <color name="hakkimda">#fd008b0c</color>
+    <color name="arkaplan">#0ef60e</color>
+    <color name="gelenkelime">#f2f2f2</color>
+    <color name="gelencevabi">#00b067</color>
+    <color name="cevab">#0093d3</color>
+    <color name="soru">#d000a33c</color>
+    <color name="register">#6b1073ce</color>
+    <color name="registerarka">#a704fff2</color>
+    <color name="iclinear">#78c30665</color>
+    <color name="colorlearn">#e6ff8400</color>
+
+
+    <color name="renk1"> #0093d3 </color>
+    <color name="renk2"> #d000a33c </color>
+    <color name="renk3">#daff8400</color>
+    <color name="renk4">#ff43ba</color>
+    <color name="renk5">#dc691c</color>
+    <color name="renk6">#d281050b</color>
+    <color name="renk7">#00ce18</color>
+    <color name="renk8">#38de88</color>
+    <color name="gelenkelimelerarkaplan">#e7003a</color>
+    <color name="learned">#91ecb22b</color>
+    <color name="test">#a117c300</color>
+    <color name="loginbutton">#b115a7cf</color>
+    <color name="buttonregister">#ac1508a1</color>
+    <color name="registerbutton">#d6df9500</color>
+    <color name="buttonregisterCancel">#90176ea8</color>
+    <color name="buttonregistersayfa">#9afa6908</color>
+    <color name="textColor">#372823</color>
+    <color name="edittext">#dc14618b</color>
+    <color name="asking">#c41f96c2</color>
+    <color name="gelenkelimestart">#890885c9</color>
+    <color name="kibar">#b03b00</color>
+    <color name="listaraka">#afe44000</color>
+    <color name="xx">#dedb11</color>
+    <color name="hakkimdaL">#ec2300</color>
+</resources>
