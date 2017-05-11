@@ -101,36 +101,4 @@ public class Database extends SQLiteOpenHelper {
     }
 
 
-/*
-    public void kelimeleri(String kelime, String anlami) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        //Bu methodda ise var olan veriyi güncelliyoruz(update)
-        ContentValues values = new ContentValues();
-        values.put(KITAP_ADI, kitap_adi);
-        values.put(KITAP_YAZARI, kitap_yazari);
-
-
-        // updating row
-        db.update(TABLE_NAME, values, KITAP_ID + " = ?",
-                new String[] { String.valueOf(id) });
-    }*/
-
-
-   /* public HashMap<String,String> kelimelerDetay(){
-        //keyi belli olan değeri çekmek için kullanılmaktadır.
-        HashMap<String,String> kelimelerim =  new HashMap<>();
-        String selectQuery ="SELECT*FROM TABLE_NAME";
-        SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery(selectQuery, null);
-        // Move to first row
-        cursor.moveToFirst();
-        if(cursor.getCount() > 0){
-            kelimelerim.put(KELIME, cursor.getString(1));
-            kelimelerim.put(ANLAMI, cursor.getString(2));
-        }
-        cursor.close();
-        db.close();
-        return kelimelerim;
-    }*/
-
 }
