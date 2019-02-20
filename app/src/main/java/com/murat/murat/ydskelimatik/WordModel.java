@@ -6,13 +6,13 @@ import java.util.ArrayList;
  * Created by murat on 22.02.2017.
  */
 
-public class dataStructure extends ArrayList<String> {
+public class WordModel extends ArrayList<String> {
     String key,value;
     public dataStructure(){
 
     }
 
-    public dataStructure(String key, String value){
+    public WordModel(String key, String value){
         this.key=key;
         this.value=value;
     }
