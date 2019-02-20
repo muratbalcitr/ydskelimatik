@@ -10,7 +10,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class sonucdegerlendirme extends AppCompatActivity {
+public class ResultTest extends AppCompatActivity {
 
 
     TextView tvDogrusayisi, tvYanlisSayisi, tvBasarimOrani;
