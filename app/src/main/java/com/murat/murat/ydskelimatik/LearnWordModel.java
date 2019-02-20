@@ -2,18 +2,18 @@ package com.murat.murat.ydskelimatik;
 
 
 
-public class kelimeogrenStructer {
+public class LearnWordModel {
     public String key;
     public String value;
     public String cevapA;
     public String cevapB;
     public String cevapC;
 
-   public kelimeogrenStructer(){
+   public LearnWordModel(){
 
    }
 
-    public kelimeogrenStructer(String key,String value,String cevapA,String cevapB,String cevapC){
+    public LearnWordModel(String key,String value,String cevapA,String cevapB,String cevapC){
         this.key =key;
         this.value=value;
         this.cevapA =cevapA;
