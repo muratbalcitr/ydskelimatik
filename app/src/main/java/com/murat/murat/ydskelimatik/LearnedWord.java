@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
-public class ogrenilenler extends AppCompatActivity {
+public class LearnedWord extends AppCompatActivity {
 
 
     ListView lv;
@@ -67,12 +67,12 @@ public class ogrenilenler extends AppCompatActivity {
         startActivity(i);
     }
 
-    public class kelimeAdapter extends BaseAdapter {
+    public class WordAdapter extends BaseAdapter {
 
         LayoutInflater layoutInflater;
         List<dataStructure> kelimelerList;
 
-        public kelimeAdapter(Activity activity, List<dataStructure> kelimeler) {
+        public WordAdapter(Activity activity, List<dataStructure> kelimeler) {
 
             layoutInflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             this.kelimelerList = kelimeler;
