@@ -13,7 +13,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.murat.murat.ydskelimatik.R;
 
-public class resetPassword extends AppCompatActivity {
+public class ResetPassword extends AppCompatActivity {
 
     EditText mail ;
     FirebaseAuth frAuth;
