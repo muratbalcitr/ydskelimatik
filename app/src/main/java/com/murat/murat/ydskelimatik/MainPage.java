@@ -16,7 +16,7 @@ import android.widget.TextView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class giris_ekrani extends AppCompatActivity {
+public class MainPage extends AppCompatActivity {
     FirebaseUser fbuser = null;
     FirebaseAuth frAuth = null;
     Button btnstart, btnencokcikanlar, btnkendinidene;
