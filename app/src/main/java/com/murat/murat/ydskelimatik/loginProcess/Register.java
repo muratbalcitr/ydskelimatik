@@ -19,7 +19,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.murat.murat.ydskelimatik.R;
 
-public class register extends AppCompatActivity {
+public class Register extends AppCompatActivity {
 
     EditText username, mail, password, passwordrepeat;
     Button cancel, register;
