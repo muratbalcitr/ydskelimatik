@@ -29,7 +29,7 @@ import java.util.Random;
 import static com.murat.murat.ydskelimatik.R.*;
 import static com.murat.murat.ydskelimatik.R.color.renk2;
 
-public class kendiniDene extends AppCompatActivity {
+public class WordTest extends AppCompatActivity {
     Button cevapA, cevapB, cevapC, cevapD;
     TextView gelenPopupSoru;
     ArrayList<kelimeogrenStructer> dataTest = new ArrayList<>();
