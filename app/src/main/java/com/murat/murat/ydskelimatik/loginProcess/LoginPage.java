@@ -32,7 +32,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.murat.murat.ydskelimatik.R;
 import com.murat.murat.ydskelimatik.giris_ekrani;
 
-public class loginPage extends AppCompatActivity {
+public class LoginPage extends AppCompatActivity {
     FirebaseAuth frAuth;
     FirebaseAuth.AuthStateListener authStateListener;
     EditText email, password;
