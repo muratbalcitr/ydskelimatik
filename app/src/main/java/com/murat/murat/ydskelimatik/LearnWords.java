@@ -25,7 +25,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class learnWords extends AppCompatActivity {
+public class LearnWords extends AppCompatActivity {
 
 
     Button Buttongelenkelimeler, Buttongelenanlamlari;
