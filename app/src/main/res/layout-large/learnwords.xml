@@ -1,147 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativelayoutstart"
+    android:background="@color/google_gray"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/buttonregistersayfa"
-    android:orientation="horizontal">
-
+    android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/llkelime"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/btnBannner"
-        android:layout_marginTop="102dp"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/tvKelime"
-            style="@android:style/Widget.Button.Small"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/button2"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="20dp"
-            android:background="@android:color/holo_orange_dark"
-            android:gravity="center"
-            android:paddingBottom="10dp"
-            android:paddingTop="10dp"
-            android:text="kelimeler"
-            android:textColor="@android:color/background_light"
-            android:textSize="30sp"
-            android:textStyle="bold|italic" />
-
-        <Button
-            android:id="@+id/tvAnlamlari"
-            style="@android:style/Widget.Button.Small"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/btnSes"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="@color/gelenkelimestart"
-            android:text="ANLAMLARI"
-            android:textColor="@android:color/background_light"
-            android:textSize="30sp"
-            android:textStyle="bold|italic" />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/llAlt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingBottom="20dp"
-        android:weightSum="1">
-
+        android:weightSum="3" >
 
         <LinearLayout
+            android:id="@+id/llkelime"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5"
-            android:orientation="horizontal"
-            android:paddingBottom="10dp">
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:layout_marginTop="24dp"
+            android:weightSum="1"
+            android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnOgrendim"
+                android:id="@+id/tvKelime"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:background="@color/learned"
-                android:onClick="Ilearned"
-                android:text="Öğrendim"
-                android:textSize="26sp" />
+                android:layout_height="0dp"
+                android:layout_gravity="fill_vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="0.5"
+                android:background="@color/buttonregister"
+                android:gravity="center"
+                android:text="@string/kelimeler"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/tvAnlamlari"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:layout_gravity="fill_vertical"
+                android:layout_margin="10dp"
+                android:background="@color/gelenkelimestart"
+                android:text="@string/anlamlari"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
         </LinearLayout>
 
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btnTest"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_above="@+id/linearLayout2"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentStart="true"
-                android:layout_weight="1"
-                android:background="@color/test"
-                android:onClick="testebasla"
-                android:text="Teste Geç"
-                android:textSize="24sp" />
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1">
 
             <Button
                 android:id="@+id/btnTekrar"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                android:background="@color/asking"
-                android:onClick="terkrar_sor"
-                android:text="öğrenmedim"
-                android:textSize="24sp" />
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="0.5"
+                android:background="@color/ileri"
+                 android:text="@string/ogrenmedim" />
+
+            <Button
+                android:id="@+id/btnOgrendim"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="0.5"
+                android:background="@color/learned"
+                 android:text="@string/ogrendim" />
         </LinearLayout>
 
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/test"
+             android:text="@string/teste_gec" />
+
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btnBannner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/banner"
-        android:text="learn learn learn"
-        android:textColor="@android:color/background_light" />
-
-    <ProgressBar
-        android:id="@+id/pbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/llAlt"
-        android:visibility="visible"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
 </RelativeLayout>
+

@@ -4,11 +4,12 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+ import android.os.Bundle;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ResultTest extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class ResultTest extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sonucdegerlendirme);
+        setContentView(R.layout.result_test);
 
         tvDogrusayisi = (TextView) findViewById(R.id.tvDogruSayisi);
         tvYanlisSayisi = (TextView) findViewById(R.id.tvYanlisSayisi);

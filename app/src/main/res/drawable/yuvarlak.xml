@@ -6,10 +6,8 @@
         />
     <gradient
         android:angle="90"
-        android:centerColor="#efefef"
-        android:endColor="#efefef"
-        android:startColor="#efefef"
+        android:centerColor="#00a0e4"
+        android:endColor="#03afff"
+        android:startColor="#06a6f1"
         android:type="linear" />
-    <stroke android:color="#fff"
-        android:width="1dp"/>
 </shape>

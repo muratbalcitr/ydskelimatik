@@ -6,8 +6,32 @@
     <string name="kendini_dene">Kendini Dene</string>
     <string name="en_ok_ikanlar">EN ÇOK ÇIKANLAR</string>
     <string name="kel_me_ren">KELİME ÖĞREN</string>
-    <string name="Haydi_Durma" /> 
+    <string name="Haydi_Durma" />
 
-    <string name="title_activity_main">MainActivity</string> 
+    <string name="title_activity_main">MainActivity</string>
+    <string name="teste_gec">Teste Geç</string>
+    <string name="kelimeler">kelimeler</string>
+    <string name="anlamlari">ANLAMLARI</string>
+    <string name="ogrendim">Öğrendim</string>
+    <string name="ogrenmedim">öğrenmedim</string>
+    <string name="start_test">Teste Başla</string>
+    <string name="title_activity_main_page_bottom">MainPageBottom</string>
+    <string name="title_word">Words</string>
+    <string name="title_learned">Learned</string>
+    <string name="title_test">Test</string>
+    <string name="title_profil">Profil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="oner">Kelime Oner</string>
+    <string name="turkish">Türkçe</string>
+    <string name="english">ingilizce</string>
+    <string name="sent">Gönder</string>
+    <string name="truecount">doğru sayısı</string>
+    <string name="falsecount">yanlış sayısı</string>
+    <string name="basarim">başarım oranı</string>
+    <string name="allresult">Tum Sonuçları Gör</string>
+    <string name="title_activity_firebase_uiwith_login">login</string>
+    <string name="signOut">Çıkış Yap</string>
 
 </resources>

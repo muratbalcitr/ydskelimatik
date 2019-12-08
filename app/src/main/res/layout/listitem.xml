@@ -2,41 +2,50 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#7000"
-    android:clickable="false"
-    android:paddingBottom="3dp"
+    android:elevation="5dp"
     android:orientation="vertical">
 
-    <TextView android:id="@+id/tvkelime"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dip"
-        android:layout_gravity="center"
-        android:elevation="10dp"
-        android:paddingTop="5dp"
-        android:textSize="16sp"
-        android:textAllCaps="true"
-        android:textColor="@color/renk3"
-        android:textStyle="bold"/>
+        android:background="@color/cevab"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:paddingBottom="3dp">
 
-    <TextView android:id="@+id/tvanlami"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dip"
-        android:layout_gravity="center"
-        android:elevation="10dp"
-        android:paddingTop="5dp"
-        android:textSize="16sp"
-        android:textAllCaps="true"
-        android:textColor="@color/renk3"
-        android:textStyle="bold"/>
-</LinearLayout>
+        <TextView
+            android:id="@+id/tvkelime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dip"
+            android:paddingTop="5dp"
+            android:text="asdasdasasdasd"
+            android:textAllCaps="true"
+            android:textColor="@color/beyaz"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#6A000000"
+            android:orientation="horizontal"></LinearLayout>
+
+        <TextView
+            android:id="@+id/tvanlami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="3dp"
+            android:padding="10dip"
+            android:paddingTop="5dp"
+            android:text="asdasdasdasdasd"
+            android:textAllCaps="true"
+            android:textColor="@color/beyaz"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 
 </LinearLayout>

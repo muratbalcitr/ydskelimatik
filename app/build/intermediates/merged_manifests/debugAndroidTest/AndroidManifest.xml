@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.murat.murat.ydskelimatik.test">
+
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+
+    <application android:debuggable="true" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.support.genelkelimeler.runner.AndroidJUnitRunner"
+                     android:targetPackage="com.murat.murat.ydskelimatik"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.murat.murat.ydskelimatik"/>
+</manifest>

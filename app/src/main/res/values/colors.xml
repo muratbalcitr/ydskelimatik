@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#0077cc</color>
+    <color name="colorAccent">#df2a68</color>
 
     <color name="geri">#ec12bc03</color>
 
     <color name="kelime">#f7ffee</color>
 
-    <color name="ileri">#017cda</color>
+    <color name="ileri">#e70086b3</color>
     <color name="hata">#2271a8</color>
     <color name="popuparkaplan">#7abbef</color>
     <color name="girisrelativealt">#b908dac1</color>
@@ -36,10 +36,10 @@
     <color name="renk7">#00ce18</color>
     <color name="renk8">#38de88</color>
     <color name="gelenkelimelerarkaplan">#e7003a</color>
-    <color name="learned">#91ecb22b</color>
-    <color name="test">#a117c300</color>
+    <color name="learned">#ca0d0060</color>
+    <color name="test">#c30295d4</color>
     <color name="loginbutton">#b115a7cf</color>
-    <color name="buttonregister">#ac1508a1</color>
+    <color name="buttonregister">#58036abe</color>
     <color name="registerbutton">#d6df9500</color>
     <color name="buttonregisterCancel">#90176ea8</color>
     <color name="buttonregistersayfa">#9afa6908</color>
@@ -51,4 +51,10 @@
     <color name="listaraka">#afe44000</color>
     <color name="xx">#dedb11</color>
     <color name="hakkimdaL">#ec2300</color>
+    <color name="beyaz">#ffffff</color>
+    <color name="google_gray">#f2f2f2</color>
+    <color name="fusya">#de0059</color>
+    <color name="startblue">#c30295d4</color>
+    <color name="endblue">#0089f2</color>
+    <color name="graylight">#f2f2f2</color>
 </resources>

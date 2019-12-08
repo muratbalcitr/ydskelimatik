@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-firebase-ui-auth-4.3.2.aar/a8d421c0099257c7254734d311dbeb34/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,186,247,302,356,414",
+                        "endColumns": "69,60,60,54,53,57,56",
+                        "endOffsets": "120,181,242,297,351,409,466"
+                    }
+                }
+            ]
+        }
+    ]
+}

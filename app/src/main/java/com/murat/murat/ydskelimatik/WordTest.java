@@ -5,8 +5,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.View;
@@ -17,6 +16,8 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.murat.murat.ydskelimatik.database.Database;
 
@@ -32,7 +33,7 @@ import static com.murat.murat.ydskelimatik.R.color.renk2;
 public class WordTest extends AppCompatActivity {
     Button cevapA, cevapB, cevapC, cevapD;
     TextView gelenPopupSoru;
-    ArrayList<kelimeogrenStructer> dataTest = new ArrayList<>();
+    ArrayList<LearnWordModel> dataTest = new ArrayList<>();
     ProgressBar pbar;
     ArrayList<HashMap<String, String>> keyValue = null;
     int indis = 0;
@@ -47,7 +48,7 @@ public class WordTest extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(layout.activity_kendini_dene);
+        setContentView(layout.word_test);
         gelenPopupSoru = (TextView) findViewById(id.btnSoru);
         cevapA = (Button) findViewById(id.btnCevapA);
         cevapB = (Button) findViewById(id.btnCevapB);
@@ -69,7 +70,7 @@ public class WordTest extends AppCompatActivity {
 
             for (int i = 0; i < keyValue.size(); i++) {
                 //String dd = keyValue.get(i).get(keyValue);
-                kelimeogrenStructer kk = new kelimeogrenStructer();
+                LearnWordModel kk = new LearnWordModel();
                 kk.key = keyValue.get(i).get("datakelime").toString();
                 kk.value = keyValue.get(i).get("dataanlami").toString();
                 kk.cevapA = keyValue.get(i).get("cevapBir").toString();
@@ -104,7 +105,7 @@ public class WordTest extends AppCompatActivity {
     }
 
     private void sonucumuz() {
-        Intent i = new Intent(kendiniDene.this, sonucdegerlendirme.class);
+        Intent i = new Intent(WordTest.this, ResultTest.class);
         i.putExtra("dogruSayisi", dogru);
         i.putExtra("yanlisSayisi", yanlis);
         i.putExtra("gorulenkelime", son);

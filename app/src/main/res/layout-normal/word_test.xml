@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/btnSoru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="denemmeme"
+        android:textColor="#111111"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/btnCevapA"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    />
+
+
+    <Button
+        android:id="@+id/btnCevapA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/yuvarlak"
+        android:onClick="btncevap"
+        android:textColor="#000"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnCevapC"
+        app:layout_constraintEnd_toEndOf="@+id/btnCevapC"
+        app:layout_constraintLeft_toLeftOf="@+id/btnCevapC"
+        app:layout_constraintRight_toRightOf="@+id/btnCevapC"
+        app:layout_constraintStart_toStartOf="@+id/btnCevapC" />
+
+    <Button
+        android:id="@+id/btnCevapB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/yuvarlak"
+        android:onClick="btncevap"
+        android:textColor="#000"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnCevapD"
+        app:layout_constraintEnd_toEndOf="@+id/btnCevapD"
+        app:layout_constraintLeft_toLeftOf="@+id/btnCevapD"
+        app:layout_constraintRight_toRightOf="@+id/btnCevapD"
+        app:layout_constraintStart_toStartOf="@+id/btnCevapD" />
+
+    <Button
+        android:id="@+id/btnCevapC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/yuvarlak"
+        android:onClick="btncevap"
+        android:textColor="#000"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnCevapB"
+        app:layout_constraintEnd_toEndOf="@+id/btnCevapD"
+        app:layout_constraintLeft_toLeftOf="@+id/btnCevapB"
+        app:layout_constraintRight_toRightOf="@+id/btnCevapD"
+        app:layout_constraintStart_toStartOf="@+id/btnCevapB" />
+
+
+    <Button
+        android:id="@+id/btnCevapD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/yuvarlak"
+        android:onClick="btncevap"
+        android:textColor="#000"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

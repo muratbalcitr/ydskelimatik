@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class WordModel extends ArrayList<String> {
     String key,value;
-    public dataStructure(){
+    public WordModel(){
 
     }
 

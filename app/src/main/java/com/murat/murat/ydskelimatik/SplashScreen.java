@@ -2,8 +2,9 @@ package com.murat.murat.ydskelimatik;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+ import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -15,10 +16,10 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent i =  new Intent(splashscreen.this,giris_ekrani.class);
+                Intent i =  new Intent(SplashScreen.this,MainPage.class);
                 startActivity(i);
             }
-        }, 3000);
+        }, 1000);
 
 
     }

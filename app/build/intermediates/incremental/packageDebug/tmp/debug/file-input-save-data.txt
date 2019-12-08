@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sun Dec 08 16:34:56 EET 2019
+1.base=/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+2.path=crashlytics-build.properties
+0.baseType=DIRECTORY
+2.base=/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+2.baseType=DIRECTORY
+1.path=classes.dex

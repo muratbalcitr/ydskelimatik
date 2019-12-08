@@ -3,8 +3,7 @@ package com.murat.murat.ydskelimatik;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
+ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
@@ -12,6 +11,8 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import android.database.sqlite.SQLiteDatabase;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -29,9 +30,7 @@ public class LearnWords extends AppCompatActivity {
 
 
     Button Buttongelenkelimeler, Buttongelenanlamlari;
-    ImageButton ses;
-    ArrayList<dataStructure> dataList = new ArrayList<>();
-    ProgressBar pbar;
+     ArrayList<WordModel> dataList = new ArrayList<>();
 
 
     SQLiteDatabase db;
@@ -52,7 +51,6 @@ public class LearnWords extends AppCompatActivity {
                 MODE_PRIVATE,
                 null);
 
-        pbar = (ProgressBar) findViewById(R.id.pbar);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -63,7 +61,6 @@ public class LearnWords extends AppCompatActivity {
 
         Buttongelenkelimeler = (Button) findViewById(R.id.tvKelime);
         Buttongelenanlamlari = (Button) findViewById(R.id.tvAnlamlari);
-        ses = (ImageButton) findViewById(R.id.btnSes);
 
 
     }
@@ -73,13 +70,12 @@ public class LearnWords extends AppCompatActivity {
         proje başladığında veritabanından nesneleri çekmek için kullanılan yapı
         */
 
-        pbar.setVisibility(View.VISIBLE);
-        dbRef = FirebaseDatabase.getInstance().getReference().child("genelkelimeler ");
+         dbRef = FirebaseDatabase.getInstance().getReference().child("genelkelimeler ");
         dbRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot dsp : dataSnapshot.getChildren()) {
-                    dataStructure data = new dataStructure();
+                    WordModel data = new WordModel();
                     data.key = dsp.getKey().toString();
                     data.value = dsp.getValue().toString();
                     dataList.add(data);
@@ -88,8 +84,7 @@ public class LearnWords extends AppCompatActivity {
                 Buttongelenkelimeler.setText(dataList.get(45).key);
                 Buttongelenanlamlari.setText(dataList.get(45).value);
 
-                pbar.setVisibility(View.GONE);
-            }
+             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
@@ -153,7 +148,7 @@ public class LearnWords extends AppCompatActivity {
     }
 
     public void testebasla(View view) {
-        Intent i = new Intent(learnWords.this, kendiniDene.class);
+        Intent i = new Intent(LearnWords.this, WordTest.class);
         startActivity(i);
     }
 }

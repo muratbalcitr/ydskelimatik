@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/menuLearnWord"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_word"
+        />
 
+    <item
+        android:id="@+id/menuLearnedWord"
+        android:icon="@drawable/words_24dp"
+        android:title="@string/title_learned" />
 
+    <item
+        android:id="@+id/menuTest"
+        android:icon="@drawable/sinav"
+        android:title="@string/title_test" />
 
+    <item
+        android:id="@+id/menuProfil"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/title_profil" />
 </menu>

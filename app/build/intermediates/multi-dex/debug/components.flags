@@ -1,0 +1,95 @@
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\9aaa0a1396170465bcabd5da359619f0\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\7713efde666d22cd332d924065b28496\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a66b165ec479a8daad2a8d95b626cde3\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\867deb58dc6e3fc60ff5afa5f2edae86\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.5.aar\d44c949a4600505762229b8d1007ab13\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.6.aar\dac4b94fd37a68dc5690080237d39ddc\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.4.aar\7ff3bc8d1a399ed2fb7434d91e090f5b\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.6.aar\4c032b28561a1def37bfee4b51cf9f77\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.4.aar\b1824c2956556fcfd96cfaf484784654\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.4.aar\5106baafb9997d5ed7234e9180e7dd0a\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\01764cc25ffec4b3b5003bb6ebe640cf\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\0eae995b5f35f689668327a388a68596\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\55d9cb19c77ce64ed4951ec5ddc3212d\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\6c2edaf6562a015806b29500b8901868\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\f3bc2e14a2783c1eff455a1478d3fa30\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.5.aar\18c405b08a68b51f4ab16c6820dc2e82\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\8d05cf707a94bcd1f3e9e24071b03e57\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\5db6a1ceb56da8996187af4ea0a89577\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\fc5bb75714f440b7d2b2f5fb6b8281a6\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\3a7e32bd0d887a4899bf31fbf0668ad0\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2642e14eae9495efe3c228fe0d792d18\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1d8acbb41980955a0108c5a23d2d0f88\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\729cbd0b1d786d63a68327438e70ff71\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\51d75b7c792fd0d5e32e2a4530562578\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\935fa1c0f7be4a7f4af4c93860993b70\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\940cb5c30bd1d80ba1839a0b365ea4df\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\466bfe68ea76fccfa05401b143615daf\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e549f21bcde554efc600ddba88046ca4\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\8763baf7e33f9a4f5b565a4f0e348e74\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\880425b96dd295d0b20fa191b20c877f\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\1364fa59fd4d65e801b1da8619693838\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e277c35f89f89e9b5a8003d6796283ad\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9cb590ad640a92a12d88340744d8062a\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8740323db8491b8492062e313e08eb70\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c4475e481630848f15204cf87565c261\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c3fd077c5e9150c29a8eebf72b535479\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\1833e589a8add58b365476583cec79f5\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\312b422db64404c17dc8019c06d3b316\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a92802d16d57e6f0fe9e99bfddea081f\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d038d4952977d0a1b377031122bd6ccb\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\ea279b7dded349bd79316e82c70f07a3\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\modules-2\files-2.1\com.android.support\collections\28.0.0\c1bcdade4d3cc2836130424a3f3e4182c666a745\collections-28.0.0.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\525a65c23c5cc38528afe78b88d706ff\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\eeaeb7b8de3271ab1084509e6be13de2\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\480adbeca5a92cc94d2538860b396c67\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\31891d78061a44c9a1de1ce74b7349e2\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\71a7f02d746668160afc119e634f0092\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e5a72552be5880d28b23bed84e69f2a0\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\43008fd1ff568c172b4464cca22fa990\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a306afcb45a67f0c61370c2ccb0f7197\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\89bb829fb22be08acdbb879883494203\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.1\207a6efae6a3555e326de41f76bdadd9a239cbce\common-1.1.1.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\39e7808c9ee4f5d0d75b8226e4b8b1c7\jars\classes.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.1\e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95\common-1.1.1.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\28.0.0\ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8\support-annotations-28.0.0.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar'(**.class)
+-injars 'C:\Users\murat\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\c7a9955a5e8483af577524a63873e203\jars\classes.jar'(**.class)
+-injars 'D:\android_projects\ydskelimatik-master\app\build\intermediates\classes\debug'(**.class)
+-outjars 'D:\android_projects\ydskelimatik-master\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\murat\AppData\Local\Android\Sdk\build-tools\28.0.3\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'D:\android_projects\ydskelimatik-master\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}
