@@ -9,7 +9,7 @@ android {
         abortOnError false
     }
     defaultConfig {
-        applicationId "com.murat.murat.ydskelimatik"
+        applicationId "com.ahmet.kelimatik"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
