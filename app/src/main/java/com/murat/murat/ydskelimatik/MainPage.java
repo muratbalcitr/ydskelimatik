@@ -57,32 +57,31 @@ public class MainPage extends AppCompatActivity {
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-        switch (keyCode) {
-            case KeyEvent.KEYCODE_BACK:
-                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-                // set title
-                alertDialogBuilder.setTitle("EXIT ?");
-                // set dialog message
-                alertDialogBuilder
-                        .setMessage("Click yes to exit!")
-                        .setCancelable(false)
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                MainPage.this.finish();
-                            }
-                        })
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                // if this button is clicked, just close
-                                // the dialog box and do nothing
-                                dialog.cancel();
-                            }
-                        });
-                // create alert dialog
-                AlertDialog alertDialog = alertDialogBuilder.create();
-                // show it
-                alertDialog.show();
-                return true;
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+            // set title
+            alertDialogBuilder.setTitle("EXIT ?");
+            // set dialog message
+            alertDialogBuilder
+              .setMessage("Click yes to exit!")
+              .setCancelable(false)
+              .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                  public void onClick(DialogInterface dialog, int id) {
+                      finish();
+                  }
+              })
+              .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                  public void onClick(DialogInterface dialog, int id) {
+                      // if this button is clicked, just close
+                      // the dialog box and do nothing
+                      dialog.cancel();
+                  }
+              });
+            // create alert dialog
+            AlertDialog alertDialog = alertDialogBuilder.create();
+            // show it
+            alertDialog.show();
+            return true;
         }
         return super.onKeyDown(keyCode, event);
     }

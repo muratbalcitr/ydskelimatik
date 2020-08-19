@@ -65,9 +65,10 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="0.5"
-                android:textColor="@color/beyaz"
                 android:background="@color/fusya"
-                 android:text="@string/ogrenmedim" />
+                android:onClick="terkrar_sor"
+                android:text="@string/ogrenmedim"
+                android:textColor="@color/beyaz" />
 
             <Button
                 android:id="@+id/btnOgrendim"
@@ -75,9 +76,10 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="0.5"
-                android:textColor="@color/beyaz"
                 android:background="@color/cevab"
-                 android:text="@string/ogrendim" />
+                android:onClick="Ilearned"
+                android:text="@string/ogrendim"
+                android:textColor="@color/beyaz" />
         </LinearLayout>
 
         <Button
@@ -85,9 +87,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:textColor="@color/beyaz"
             android:background="@color/colorPrimaryDark"
-              android:text="@string/teste_gec" />
+            android:onClick="testebasla"
+            android:text="@string/teste_gec"
+            android:textColor="@color/beyaz" />
 
     </LinearLayout>
 </RelativeLayout>

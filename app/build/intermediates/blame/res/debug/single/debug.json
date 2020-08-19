@@ -4,36 +4,36 @@
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_bg_circl.xml.flat",
-        "source": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/src/main/res/drawable/bg_circl.xml"
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_tvadlari.xml.flat",
         "source": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/src/main/res/drawable/tvadlari.xml"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_bg_circl.xml.flat",
+        "source": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/src/main/res/drawable/bg_circl.xml"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_loginarka.jpg.flat",
         "source": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/src/main/res/drawable/loginarka.jpg"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable/abc_text_cursor_material.xml"
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable/abc_text_cursor_material.xml"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_splashscreen.xml.flat",
@@ -56,28 +56,28 @@
         "source": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/src/main/res/drawable/custom_progressbar_dogru.xml"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/79fdfd4801a38f6a736d7e7e23e074d5/res/layout/design_navigation_item_header.xml"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_buttonregister.xml.flat",
         "source": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/src/main/res/drawable/buttonregister.xml"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/79fdfd4801a38f6a736d7e7e23e074d5/res/layout/design_navigation_item_header.xml"
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/layout_fui_register_email_layout.xml.flat",
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-firebase-ui-auth-4.3.2.aar/a8d421c0099257c7254734d311dbeb34/res/layout/fui_register_email_layout.xml"
+    },
+    {
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/layout_fragment_profil.xml.flat",
@@ -160,24 +160,24 @@
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/79fdfd4801a38f6a736d7e7e23e074d5/res/drawable-xxxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -244,12 +244,12 @@
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
@@ -292,12 +292,12 @@
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-firebase-ui-auth-4.3.2.aar/a8d421c0099257c7254734d311dbeb34/res/layout/fui_check_email_layout.xml"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-v21_abc_list_divider_material.xml.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-v21/abc_list_divider_material.xml"
-    },
-    {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_btnstyle.xml.flat",
         "source": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/src/main/res/drawable/btnstyle.xml"
+    },
+    {
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-v21_abc_list_divider_material.xml.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-v21/abc_list_divider_material.xml"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_sinav.xml.flat",
@@ -324,12 +324,12 @@
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
-    },
-    {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/9f0cd98ec7e9429fb1056a48f9a34b22/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat",
@@ -380,12 +380,12 @@
         "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/anim_buttonanimasyon.xml.flat",
         "source": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/src/main/res/anim/buttonanimasyon.xml"
+    },
+    {
+        "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/Users/murat/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/be207db8e666c9b209a9d144774d3a29/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/murat/AndroidStudioProjects/ydskelimatik/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
